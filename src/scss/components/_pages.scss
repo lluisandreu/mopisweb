@@ -1,0 +1,33 @@
+.page-front {
+	#header {
+		max-height: 600px;
+		min-height: 600px;
+		overflow: hidden;
+		display: block;
+		position: relative;
+
+		.header-inner {
+			position: relative;
+			z-index: 10;
+			padding-top: rem-calc(40);
+		}
+
+		.header-left {
+			padding-left: rem-calc(40);
+		}
+
+		.logo{
+			
+			img {
+				transition: all .5s ease-in-out;
+				transform: rotateY(0);
+			}
+			
+			&:hover {
+				img {
+					transform: rotateY(180deg);
+				}
+			}	
+		}
+	}
+}

@@ -9,14 +9,69 @@
 
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i" rel="stylesheet">
         <link rel="stylesheet" href="dist/css/app.css">
         <script src="bower_components/modernizr/modernizr.js"></script>
     </head>
     <body>
-        <div id="page">
-        	<header>
-        		hello
+        <div id="page" class="page-front">
+        	<header id="header">
+        		<div class="header-inner">
+                    <div class="grid-x grid-padding-x header-top">
+                        <div class="cell medium-6">
+                            <div class="header-left">
+                                <div class="logo">
+                                    <a href="#">
+                                        <img src="dist/logos/logo.svg" align="Mopis logo">
+                                    </a>
+                                </div>
+                                <nav class="main-nav main-nav-block">
+                                    <ul class="menu vertical">
+                                        <li><a href="#">serveis</a></li>
+                                        <li><a href="#">casos d'èxit</a></li>
+                                        <li><a href="#">contacte</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="cell medium-6">
+                            <div class="header-right">
+                                <div class="language-switcher-block">
+                                    <ul class="menu horizontal">
+                                        <li><a href="#">cat</a></li>
+                                        <li><a href="#">esp</a></li>
+                                        <li><a href="#">en</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-slogan-block">
+                        <div class="grid-x grid-padding-x align-center-middle text-center">
+                            <div class="cell">
+                                <h1>Disseny.Desenvolupament.<br>Aplicacions.Web</h1>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+                <div class="header-video-block">
+                    <div class="header-video-filter"></div>
+                    <video autoplay loop class="fullwidth" poster="dist/Snapshots/Love-Coding.jpg">
+                        <source src="dist/videos/MP4/Love-Coding.mp4" type="video/mp4">
+                        <source src="dist/videos/WEBM/Love-Coding.webm" type="video/wgb">
+                    </video>
+                </div>
         	</header>
+            <main id="main" class="main-container">
+                <section class="teaser-section">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell text-center">
+                            <h2>La nova constructora digital del llevant de Mallorca</h2>
+                            <p>Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
         </div>
         
         <script src="bower_components/jquery/jquery.min.js"></script>
