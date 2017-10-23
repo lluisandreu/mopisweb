@@ -1,7 +1,13 @@
 a {
-	transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
 }
 
 h1, h2 {
-	color: $secondary-color;
+    color: $secondary-color;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
