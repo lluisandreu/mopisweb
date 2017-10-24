@@ -1,0 +1,83 @@
+.page-front {
+    #header {
+        max-height: 500px;
+        min-height: 500px;
+
+        @include breakpoint(medium) {
+            max-height: 750px;
+            min-height: 750px;
+        }
+
+
+        overflow: hidden;
+        display: block;
+        position: relative;
+
+        .header-inner {
+            position: relative;
+            z-index: 10;
+            padding-top: rem-calc(40);
+        }
+
+        .header-left {
+            @include breakpoint(medium) {
+                padding-left: rem-calc(40);
+            }
+        }
+
+        .logo {
+            img {
+                transition: all .5s ease-in-out;
+                transform: rotateY(0);
+            }
+
+            &:hover {
+                img {
+                    transform: rotateY(180deg);
+                }
+            }
+        }
+    }
+}
+
+.teaser-section {
+    position: relative;
+
+    &:before {
+        content: '';
+        width: 100%;
+        height: 30px;
+        background-color: #fff;
+        position: absolute;
+        z-index: 1;
+        clip-path: polygon(0 100%, 120% 100%, 0 0);
+        top: -30px;
+
+        @include breakpoint(medium) {
+            height: 150px;
+            top: -126px;
+        }
+    }
+}
+
+.footer-section {
+    .menu {
+        a {
+            color: $white;
+            padding: 0;
+            line-height: $paragraph-line-height;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    .tel {
+        a {
+            color: $primary-color;
+        }
+
+        font-size: rem-calc(20);
+    }
+}

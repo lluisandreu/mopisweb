@@ -1,0 +1,52 @@
+en:
+  meta:
+    title: "Mopis. Web Design and development in Manacor, Mallorca"
+    description: "Mopis is a web app development company in the east of Mallorca, Spain. We specialise in Drupal, Wordpress and PHP development."
+  nav: 
+    - "services"
+    - "successful stories"
+    - "contact"
+  slogan:
+    - "Design"
+    - "Development"
+    - "Applications"
+    - "Web"
+  about:
+    title: "The new digital agency in the east of Mallorca"
+    featured: "Mopis is a digital agency based in Manacor, Mallorca which offers an exclusive digital service for small and medium companies. We specialise in web development with PHP, using frameworks and CMS like Drupal, Wordpress, Laravel or CodeIgniter."
+    body: "We adapt to our customers goals and needs. For this reason we always select the best tools to offer a customised service adapted to the customer budget."
+  services:
+    1:
+      title: Web development
+      description: Web app design and development, using always the latest web technologies to satisfy the goals of the customer and the final user.
+    2:
+      title: Drupal development
+      description: We have been working with <strong>Drupal</strong> over the last 6 years with great success. We can offer web apps built with <strong>Drupal 8</strong>, modules and customised themes.
+    3: 
+      title: Wordpress development
+      description: We also develop web apps with <strong>Wordpress</strong>. Using either templates or theme builders. Combined with <strong>Woocommerce</strong> it can be a powerful eCommerce site.
+    4:
+      title: PHP development
+      description: Design and development of web apps with PHP using the most successful frameworks like <strong>Laravel</strong>, <strong>Symphony</strong> or <strong>CodeIgniter</strong>.
+    5:
+      title: Web design and UX
+      description: Experts in responsive web app designs, using the latest recommendations on <strong>User Experience</strong> (UX) and <strong>accessibility</strong>.
+    6:
+      title: Web App for Smartphones
+      description: Webapp development for smartphones and tablets using the browser standard programming languages, compatible with <strong>iOS</strong> and <strong>Android</strong>.
+    7:
+      title: SEO Analysis
+      description: Study of the current SEO and recommendations for a better presence in the leading <strong>search engines</strong>.
+  projects:
+    1: 
+      title: Auditori d'Alcúdia front-end development
+      description: Markup creation. Foundation6. HTML5. SASS. Gulp
+    2: 
+      title: Urban Photo Fest Open
+      description: Drupal 7. Drupal Commerce. Foundation
+    3:
+      title: Clinical software applications for hospitals
+      description: PHP. CodeIgniter. Bootstrap
+  contact: 
+    left: "Mopis is based in Manacor, Mallorca. <br> But internet doesn't have geographic limits..."
+        
