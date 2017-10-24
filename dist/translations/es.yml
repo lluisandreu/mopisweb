@@ -1,0 +1,52 @@
+es:
+  meta:
+    title: "Mopis. Diseño y desarrollo web en Manacor, Mallorca"
+    description: "Mopis is a web app development company in the east of Mallorca, Spain. We specialise in Drupal, Wordpress and PHP development."
+  nav: 
+    - "servicios"
+    - "casos de éxito"
+    - "contacto"
+  slogan:
+    - "Diseño"
+    - "Desarrollo"
+    - "Aplicaciones"
+    - "Web"
+  about:
+    title: "La nueva constructora digital del levante de Mallorca"
+    featured: "Mopis es una agencia digital que nace en el levante mallorquín y ofrece un servicio digital exclusivo para empresas medianas y pequeñas. Nos especializamos en el desarrollo web en PHP, utilizando frameworks y CMS como Drupal, Wordpress, Laravel o CodeIgniter."
+    body: "Nos adaptamos totalmente a las necesidades y objetivos del cliente, por esta razón elegimos las mejores herramientas y plataformas de trabajo para ofrecer un servicio personalizado y ajustado al presupuesto del cliente."
+  services:
+    1:
+      title: Desarrollo web
+      description: Diseño y desarrollo de aplicaciones web personalizadas, utilizando siempre las últimas tecnologías de programación web.
+    2:
+      title: Desarrollo en Drupal
+      description: Tenemos más de 6 años de experiencia en <strong>Drupal</strong>. Ofrecemos la creación de aplicaciones en <strong>Drupal 8</strong>, módulos y temas personalizados. 
+    3: 
+      title: Desarrollo en Wordpress
+      description: También desarrollamos aplicaciones web con <strong>Wordpress</strong>, Usando plantillas ya creadas o generadores de temas como Divi.
+    4:
+      title: Dessarrollo en PHP
+      description: Diseño y programación de aplicaciones webs en PHP y SQL, utilizando los frameworks más potentes como <strong>Laravel</strong>, <strong>Symphony</strong> o <strong>CodeIgniter</strong>.
+    5:
+      title: Diseño web y UX
+      description: Somos expertos en diseño web responive, siempre teniendo en cuenta las últimas recomendaciones entorno a <strong>Experiencia de Usuario</strong> UX y <strong>accesibilidad</strong>.
+    6:
+      title: Aplicaciones para dispositivos móviles
+      description: Desarrollo de aplicaciones web para móviles, utilizando los lenguages de programación web estándar, compatibles con <strong>iOS</strong> y <strong>Android</strong>.
+    7:
+      title: Análisis SEO
+      description: Estudio y análisis del posicionamiento en buscadores SEO. Incorporación de técnicas para mejorar la presencia en Internet.
+  projects:
+    1: 
+      title: Auditori d'Alcúdia front-end development
+      description: Maquetación. Foundation6. HTML5. SASS. Gulp
+    2: 
+      title: Urban Photo Fest Open
+      description: Drupal 7. Drupal Commerce. Foundation
+    3:
+      title: Aplicaciones para ensayos clínicos y estudios observacionales
+      description: PHP. CodeIgniter. Bootstrap
+  contact: 
+    left: "Mopis tiene base en Manacor, <br>Mallorca. <br> Pero internet no tiene límites geográficos..."
+        

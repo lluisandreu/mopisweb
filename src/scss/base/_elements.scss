@@ -6,7 +6,7 @@ h1, h2 {
     color: $secondary-color;
 }
 
-video {
+video:not(.fullwidth) {
     width: 100%;
     max-width: 100%;
     height: auto;

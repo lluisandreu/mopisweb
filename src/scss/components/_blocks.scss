@@ -7,13 +7,21 @@
             &:hover {
                 color: $primary-color;
             }
+
+            &.active {
+                color: $primary-color;
+            }
         }
     }
 }
 
 .language-switcher-block {
     float: right;
-    padding-right: rem-calc(40);
+
+    @include breakpoint(medium) {
+        padding-right: rem-calc(40);
+    }
+
 
     .menu {
         a {
@@ -21,6 +29,10 @@
             padding: rem-calc(10);
 
             &:hover {
+                color: $primary-color;
+            }
+
+            &.active {
                 color: $primary-color;
             }
         }
@@ -45,7 +57,7 @@
     left: 0;
     overflow: hidden;
     z-index: -100;
-    max-height: 700px;
+    max-height: 750px;
 
     .header-video-filter {
         position: absolute;
@@ -56,9 +68,9 @@
         z-index: 2;
 
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#57a7f4+1,6be5b2+100&0.4+0,0.42+100 */
-        background: -moz-linear-gradient(135deg, #e6f3ff 0%, #3FA9F5 1%, rgba(81, 216, 160, 0) 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(135deg, #e6f3ff 0%, #3FA9F5 1%, rgba(81, 216, 160, 0) 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(135deg, #e6f3ff 0%, #3FA9F5 1%, rgba(81, 216, 160, 0) 100%);
+        background: -moz-linear-gradient(135deg, #3FA9F5 0%, #3FA9F5 1%, rgba(81, 216, 160, 0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(135deg, #3FA9F5 0%, #3FA9F5 1%, rgba(81, 216, 160, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #3FA9F5 0%, #3FA9F5 1%, rgba(81, 216, 160, 0) 100%);
     }
 
     video.fullwidth {
@@ -85,7 +97,11 @@
 
 .services-block {
     .service-item {
-        height: 270px;
+        margin-bottom: rem-calc(20);
+
+        @include breakpoint(large) {
+            height: 270px;
+        }
     }
 
     .service-item-image {

@@ -1,7 +1,14 @@
 .page-front {
     #header {
-        max-height: 700px;
-        min-height: 700px;
+        max-height: 500px;
+        min-height: 500px;
+
+        @include breakpoint(medium) {
+            max-height: 750px;
+            min-height: 750px;
+        }
+
+
         overflow: hidden;
         display: block;
         position: relative;
@@ -13,7 +20,9 @@
         }
 
         .header-left {
-            padding-left: rem-calc(40);
+            @include breakpoint(medium) {
+                padding-left: rem-calc(40);
+            }
         }
 
         .logo {
@@ -28,5 +37,47 @@
                 }
             }
         }
+    }
+}
+
+.teaser-section {
+    position: relative;
+
+    &:before {
+        content: '';
+        width: 100%;
+        height: 30px;
+        background-color: #fff;
+        position: absolute;
+        z-index: 1;
+        clip-path: polygon(0 100%, 120% 100%, 0 0);
+        top: -30px;
+
+        @include breakpoint(medium) {
+            height: 150px;
+            top: -126px;
+        }
+    }
+}
+
+.footer-section {
+    .menu {
+        a {
+            color: $white;
+            padding: 0;
+            line-height: $paragraph-line-height;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    .tel {
+        a {
+            color: $primary-color;
+        }
+
+        font-size: rem-calc(20);
     }
 }
