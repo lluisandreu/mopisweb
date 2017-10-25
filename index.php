@@ -4,9 +4,10 @@ $languages = array('ca', 'en', 'es');
 $error_404 = FALSE;
 
 if(isset($_SERVER['REDIRECT_URL'])) {
-	if(in_array($_SERVER['REDIRECT_URL'], $languages)) {
-		$uri = $_SERVER['REDIRECT_URL'];
-		$language_path = str_replace('/', '', $uri);
+	$uri = $_SERVER['REDIRECT_URL'];
+	$uri = str_replace('/', '', $uri);
+	if(in_array($uri, $languages)) {
+		$language_path = $uri;
 	} else {
 		$error_404 = TRUE;
 		$language_path = "ca";
