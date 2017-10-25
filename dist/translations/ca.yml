@@ -18,25 +18,25 @@ ca:
   services:
     1:
       title: Programació web
-      description: Disseny i desenvolupament d'aplicacions web personalitzades, sempre utilitzant les últimes tecnologies de programació web depenent de les necessitats del client.
+      description: Disseny i desenvolupament d'aplicacions <strong>web personalitzades</strong>, sempre utilitzant les últimes tecnologies de programació web, depenent de les necessitats del client.
     2:
       title: Desenvolupament en Drupal
-      description: Tenim més de 6 anys d'experiència en Drupal. Oferim la creació d'aplicacions web en Drupal 8, mòduls i temes personalitzats.
+      description: Tenim més de 6 anys d'experiència en Drupal. Oferim la creació d'aplicacions web en <strong>Drupal 8</strong>, mòduls i temes personalitzats.
     3: 
       title: Desenvolupament en Wordpress
-      description: Aplicacions web en Wordpress utilitzant plantilles o generadors de temes com Divi.
+      description: Aplicacions web en <strong>Wordpress</strong> utilitzant plantilles o generadors de temes com Divi.
     4:
       title: Programació en PHP i <em>frameworks</em>
-      description: Disseny i desenvolupament d'aplicacions en PHP utilitzant els frameworks de més èxit com Laravel, Symphony o CodeIgniter.
+      description: Disseny i desenvolupament d'aplicacions en PHP utilitzant els frameworks de més èxit com <strong>Laravel</strong>, <strong>Symphony</strong> o <strong>CodeIgniter</strong>.
     5:
       title: Disseny web i UX
-      description: Creació de dissenys responsive per a aplicacions web tenint en compte l'accessibilitat i l'experiència d'usuari (UX).
+      description: Creació de dissenys responsive per a aplicacions web tenint en compte l'accessibilitat i l'<strong>experiència d'usuari</strong> (UX).
     6:
       title: Aplicacions per a dispositius mòbils
-      description: Desenvolupament d'aplicacions web per a dispositius mòbils o tauletes utilitzant els llenguatges de programació web, compatibles per IOS i Android.
+      description: Desenvolupament d'aplicacions web per a <strong>dispositius mòbils</strong> o tauletes utilitzant els llenguatges de programació web, compatibles per <strong>IOS</strong> i <strong>Android</strong>.
     7:
       title: Anàlisi de SEO
-      description: Estudi i anàlisi de posicionament d'una aplicació web. Incorporació de tècniques per millorar la presència a Internet.
+      description: Estudi i anàlisi de <strong>posicionament</strong> d'una aplicació web. Incorporació de tècniques per millorar la presència a Internet.
   projects:
     1: 
       title: Auditori d'Alcúdia front-end development

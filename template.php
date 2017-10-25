@@ -64,19 +64,24 @@
                     <div class="header-slogan-block">
                         <div class="grid-x grid-padding-x align-center-middle">
                             <div class="cell medium-6">
+                                <?php if(!$error_404): ?>
                                 <h1 class="appear-effect">
                                     <span><?php print $trans['slogan'][0]; ?>.</span>
                                     <span><?php print $trans['slogan'][1]; ?>.</span>
                                     <span><?php print $trans['slogan'][2]; ?>.</span>
                                     <span><?php print $trans['slogan'][3]; ?>.</span>
                                 </h1>
+                                <?php else: ?>
+                                    <h1>Your page has not been found..</h1>
+                                    <a href="./" class="button button-primary">Back to homepage</a>
+                                <?php endif; ?>
                             </div>
                         </div>
                     </div>      
                 </div>
                 <div class="header-video-block">
                     <div class="header-video-filter"></div>
-                    <video autoplay loop class="fullwidth" poster="dist/Snapshots/Mock-up.jpg">
+                    <video autoplay loop class="fullwidth" poster="dist/videos/Snapshots/Mock-up.jpg">
                         <source src="dist/videos/MP4/Mock-up.mp4" type="video/mp4">
                         <source src="dist/videos/WEBM/Mock-up.webm" type="video/wgb">
                     </video>
@@ -168,8 +173,8 @@
                         </div>
                         <div class="grid-x grid-padding-x align-center-middle row-padding">
                             <div class="cell medium-4 project-item">
-                                <video autoplay loop width="350" preload="auto" src="dist/videos/projects/auditoriAlcudia.webm" poster="dist/images/upfo.jpeg">
-                                    <source src="dist/videos/projects/auditoriAlcudia.webm" type="video/wgb">
+                                <video autoplay loop width="350" src="dist/videos/MP4/upfo.mp4" poster="dist/images/upfo.jpeg">
+                                    <source src="dist/videos/MP4/upfo.mp4" type="video/mp4">
                                 </video>
                                 <h3><?php print $trans['projects'][2]['title']; ?></h3>
                                 <div class="project-description">
