@@ -64,19 +64,24 @@
                     <div class="header-slogan-block">
                         <div class="grid-x grid-padding-x align-center-middle">
                             <div class="cell medium-6">
+                                <?php if(!$error_404): ?>
                                 <h1 class="appear-effect">
                                     <span><?php print $trans['slogan'][0]; ?>.</span>
                                     <span><?php print $trans['slogan'][1]; ?>.</span>
                                     <span><?php print $trans['slogan'][2]; ?>.</span>
                                     <span><?php print $trans['slogan'][3]; ?>.</span>
                                 </h1>
+                                <?php else: ?>
+                                    <h1>Your page has not been found..</h1>
+                                    <a href="./" class="button button-primary">Back to homepage</a>
+                                <?php endif; ?>
                             </div>
                         </div>
                     </div>      
                 </div>
                 <div class="header-video-block">
                     <div class="header-video-filter"></div>
-                    <video autoplay loop class="fullwidth" poster="dist/Snapshots/Mock-up.jpg">
+                    <video autoplay loop class="fullwidth" poster="dist/videos/Snapshots/Mock-up.jpg">
                         <source src="dist/videos/MP4/Mock-up.mp4" type="video/mp4">
                         <source src="dist/videos/WEBM/Mock-up.webm" type="video/wgb">
                     </video>
@@ -168,8 +173,8 @@
                         </div>
                         <div class="grid-x grid-padding-x align-center-middle row-padding">
                             <div class="cell medium-4 project-item">
-                                <video autoplay loop width="350" preload="auto" src="dist/videos/projects/auditoriAlcudia.webm" poster="dist/images/upfo.jpeg">
-                                    <source src="dist/videos/projects/auditoriAlcudia.webm" type="video/wgb">
+                                <video autoplay loop width="350" src="dist/videos/MP4/upfo.mp4" poster="dist/images/upfo.jpeg">
+                                    <source src="dist/videos/MP4/upfo.mp4" type="video/mp4">
                                 </video>
                                 <h3><?php print $trans['projects'][2]['title']; ?></h3>
                                 <div class="project-description">
@@ -209,9 +214,9 @@
                                 </div>
                                 <div class="cell medium-4 text-center medium-text-right">
                                     <ul class="menu vertical">
-                                        <li><a href="#">Facebook</a></li>
-                                        <li><a href="#">Linkedin</a></li>
-                                        <li><a href="#">Skype</a></li>
+                                        <li><a href="https://www.facebook.com/mopisweb/">Facebook</a></li>
+                                        <li><a href="https://www.linkedin.com/in/llu%C3%ADs-andreu-oliver-obrador-5b709716/">Linkedin</a></li>
+                                        <li><a href="#">Skype: lluis.cactus</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -225,6 +230,15 @@
         <script id="__bs_script__">
 		    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
 		</script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44802229-19"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-44802229-19');
+        </script>
         <script type="text/javascript" src="dist/js/app.js"></script>
     </body>
 </html>

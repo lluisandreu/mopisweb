@@ -1,13 +1,20 @@
 <?php 
 
-require_once "dist/php/functions.php";
+$languages = array('ca', 'en', 'es');
+$error_404 = FALSE;
 
 if(isset($_SERVER['REDIRECT_URL'])) {
-	$uri = $_SERVER['REDIRECT_URL'];
-	$language_path = str_replace('/', '', $uri);
+	if(in_array($_SERVER['REDIRECT_URL'], $languages)) {
+		$uri = $_SERVER['REDIRECT_URL'];
+		$language_path = str_replace('/', '', $uri);
+	} else {
+		$error_404 = TRUE;
+		$language_path = "ca";
+	}
 } else {
 	$language_path = "ca";
 }
+	
 
 $ca_tr = yaml_parse(file_get_contents('dist/translations/ca.yml'));
 $eng_tr = yaml_parse(file_get_contents('dist/translations/en.yml'));
