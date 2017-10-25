@@ -37,7 +37,7 @@
                         <div class="cell medium-6 small-5">
                             <div class="header-left">
                                 <div class="logo">
-                                    <a href="#">
+                                    <a href="http://www.mopisweb.com/">
                                         <img src="dist/logos/logo.svg" align="Mopis logo">
                                     </a>
                                 </div>
@@ -112,21 +112,21 @@
                             </div>
                             <div class="grid-x grid-padding-x align-center-middle row-padding">
                                 <div class="cell medium-4 service-item text-center">
-                                    <img class="service-item-image" src="dist/images/svg/004-drupal-logo.svg" alt="Programació web">
+                                    <img class="service-item-image" src="dist/images/svg/004-drupal-logo.svg" alt="Programació Drupal">
                                     <h4><?php print $trans['services'][2]['title']; ?></h4>
                                     <div class="service-item-description">
                                         <?php print $trans['services'][2]['description']; ?>
                                     </div>
                                 </div>
                                 <div class="cell medium-4 service-item text-center">
-                                    <img class="service-item-image" src="dist/images/svg/003-wordpress.svg" alt="Programació web">
+                                    <img class="service-item-image" src="dist/images/svg/003-wordpress.svg" alt="Programació Wordpress">
                                     <h4><?php print $trans['services'][3]['title']; ?></h4>
                                     <div class="service-item-description">
                                         <?php print $trans['services'][3]['description']; ?>
                                     </div>
                                 </div>
                                 <div class="cell medium-4 service-item text-center">
-                                    <img class="service-item-image" src="dist/images/svg/002-php.svg" alt="Programació web">
+                                    <img class="service-item-image" src="dist/images/svg/002-php.svg" alt="Programació PHP">
                                     <h4><?php print $trans['services'][4]['title']; ?></h4>
                                     <div class="service-item-description">
                                         <?php print $trans['services'][4]['description']; ?>
@@ -135,14 +135,14 @@
                             </div>
                             <div class="grid-x grid-padding-x align-center-middle row-padding">
                                 <div class="cell medium-4 service-item text-center">
-                                    <img class="service-item-image" src="dist/images/svg/001-responsive.svg" alt="Programació web">
+                                    <img class="service-item-image" src="dist/images/svg/001-responsive.svg" alt="Disseny i UX">
                                     <h4><?php print $trans['services'][5]['title']; ?></h4>
                                     <div class="service-item-description">
                                         <?php print $trans['services'][5]['description']; ?>
                                     </div>
                                 </div>
                                 <div class="cell medium-4 service-item text-center">
-                                    <img class="service-item-image" src="dist/images/svg/006-smartphone.svg" alt="Programació web">
+                                    <img class="service-item-image" src="dist/images/svg/006-smartphone.svg" alt="Aplicacions per dispositius mòbils">
                                     <h4><?php print $trans['services'][6]['title']; ?></h4>
                                     <div class="service-item-description">
                                         <?php print $trans['services'][6]['description']; ?>
@@ -151,7 +151,7 @@
                             </div>
                             <div class="grid-x grid-padding-x align-center-middle row-padding">
                                 <div class="cell medium-4 service-item text-center">
-                                    <img class="service-item-image" src="dist/images/svg/005-target.svg" alt="Programació web">
+                                    <img class="service-item-image" src="dist/images/svg/005-target.svg" alt="Anàlisi SEO">
                                     <h4><?php print $trans['services'][7]['title']; ?></h4>
                                     <div class="service-item-description">
                                         <?php print $trans['services'][7]['description']; ?>
@@ -165,11 +165,13 @@
                     <div class="projects-block">
                         <div class="grid-x grid-padding-x align-center-middle row-padding">
                             <div class="cell medium-4 project-item">
-                                <img class="project-image" src="dist/images/auditoriAlcudia.jpeg">
+                                <img class="project-image" src="dist/images/auditoriAlcudia.jpeg" alt="Auditori d'Alcudia">
                                 <h3><?php print $trans['projects'][1]['title']; ?></h3>
                                 <div class="project-description">
                                     <?php print $trans['projects'][1]['description']; ?>
                                 </div>
+                                <p><strong>A project by: </strong><br><img src="dist/images/DitsTicketing.png" width="150" alt="DitsMarketing"></p>
+                                
                             </div>
                         </div>
                         <div class="grid-x grid-padding-x align-center-middle row-padding">
@@ -181,15 +183,16 @@
                                 <div class="project-description">
                                     <?php print $trans['projects'][2]['description']; ?>
                                 </div>
-                                <br>
-                                <a href="http://urbanphotofest.com/" class="button button-secondary small">www</a>
+                                <p><strong>A project by: </strong><br>Urban Photographers Association</p>
+                                <a href="http://urbanphotofest.com/" class="button button-secondary small">Website</a>
                             </div>
                             <div class="cell medium-4 project-item">
-                                <img class="project-image" src="dist/images/sofpromed.jpeg">
+                                <img class="project-image" src="dist/images/sofpromed.jpeg" alt="Sofpromed">
                                 <h3><?php print $trans['projects'][3]['title']; ?></h3>
                                 <div class="project-description">
                                     <?php print $trans['projects'][3]['description']; ?>
                                 </div>
+                                <p><strong>A project by: </strong><br>Sofpromed Investigación Clínica, SLU</p>
                             </div>
                         </div>
                     </div>
