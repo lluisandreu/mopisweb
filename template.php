@@ -228,9 +228,9 @@
         </div>
         
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script id="__bs_script__">
+        <!-- <script id="__bs_script__">
 		    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
-		</script>
+		</script> -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44802229-19"></script>
         <script>
