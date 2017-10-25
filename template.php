@@ -31,7 +31,7 @@
     </head>
     <body>
         <div id="page" class="page-front">
-        	<header id="header">
+        	<header id="header" role="banner">
         		<div class="header-inner">
                     <div class="grid-x grid-padding-x header-top">
                         <div class="cell medium-6 small-5">
@@ -41,7 +41,7 @@
                                         <img src="dist/logos/logo.svg" align="Mopis logo">
                                     </a>
                                 </div>
-                                <nav class="main-nav main-nav-block">
+                                <nav class="main-nav main-nav-block" role="navigation">
                                     <ul class="menu vertical">
                                         <li><a href="#services"><?php print $trans['nav'][0]; ?></a></li>
                                         <li><a href="#projects"><?php print $trans['nav'][1]; ?></a></li>
@@ -88,10 +88,10 @@
                     </video>
                 </div>
         	</header>
-            <main id="main" class="main-container">
+            <main id="main" class="main-container" role="main">
                 <section class="teaser-section section-padding">
                     <div class="grid-x grid-padding-x align-center-middle">
-                        <div class="cell medium-8 text-center">
+                        <div class="cell medium-8 text-center" role="contentinfo">
                             <h2><?php print $trans['about']['title']; ?></h2>
                             <p class="bigger"><?php print $trans['about']['featured']; ?></p>
                             <p><?php print $trans['about']['body']; ?></p>
@@ -239,6 +239,18 @@
           gtag('js', new Date());
 
           gtag('config', 'UA-44802229-19');
+        </script>
+        <script type="application/ld+json">
+            {
+                    "@context": "http://schema.org",
+                    "@type": ["LocalBusiness"],
+                    "name": "Mopis Web",
+                    "description": "<?php print $trans['about']['featured']; ?>",
+                    "openingHours":["Mo-Fri 9:00-17:00"],
+                    "url":"http://www.mopisweb.com/",
+                    "logo":"dist/logos/logo.svg",
+                    "telephone":"0034650514579"
+            }
         </script>
         <script type="text/javascript" src="dist/js/app.js"></script>
     </body>
