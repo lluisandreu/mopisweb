@@ -6,6 +6,7 @@
         <title><?php print $trans['meta']['title']; ?></title>
         <meta name="description" content="<?php print $trans['meta']['description']; ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="LV2NcOCZMAPFOVO0bCC2sS_jc8wH8yR3CeUffD2FLeI" />
 
         <link rel="icon" href="dist/logos/favicon.ico">
         <!-- non-retina iPhone pre iOS 7 -->
