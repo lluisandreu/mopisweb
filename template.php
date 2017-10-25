@@ -214,9 +214,9 @@
                                 </div>
                                 <div class="cell medium-4 text-center medium-text-right">
                                     <ul class="menu vertical">
-                                        <li><a href="#">Facebook</a></li>
-                                        <li><a href="#">Linkedin</a></li>
-                                        <li><a href="#">Skype</a></li>
+                                        <li><a href="https://www.facebook.com/mopisweb/">Facebook</a></li>
+                                        <li><a href="https://www.linkedin.com/in/llu%C3%ADs-andreu-oliver-obrador-5b709716/">Linkedin</a></li>
+                                        <li><a href="#">Skype: lluis.cactus</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -230,6 +230,15 @@
         <script id="__bs_script__">
 		    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
 		</script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44802229-19"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-44802229-19');
+        </script>
         <script type="text/javascript" src="dist/js/app.js"></script>
     </body>
 </html>
