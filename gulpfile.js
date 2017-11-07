@@ -4,6 +4,7 @@ var browserSync = require('browser-sync').create();
 var autoprefixer = require('gulp-autoprefixer');
 var cleanCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
+var minify = require('gulp-minify');
 
 gulp.task('sass', function () {
     return gulp.src('src/scss/**/*.scss')
@@ -27,6 +28,7 @@ gulp.task('sass', function () {
 gulp.task('scripts', function () {
     return gulp.src('src/js/**/*.js')
         .pipe(uglify())
+        .pipe(minify())
         .pipe(gulp.dest('dist/js'))
         .pipe(browserSync.reload({
             stream: true

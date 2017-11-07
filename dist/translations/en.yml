@@ -1,7 +1,7 @@
 en:
   meta:
     title: "Mopis. Web Design and development in Manacor, Mallorca"
-    description: "Mopis is a web app development company in the east of Mallorca, Spain. We specialise in Drupal, Wordpress and PHP development."
+    description: "Mopis is a web design & development company in Manacor, Majorca. We specialise in Drupal, Wordpress and PHP development."
   nav: 
     - "services"
     - "successful stories"
@@ -47,6 +47,7 @@ en:
     3:
       title: Clinical software applications for hospitals
       description: PHP. CodeIgniter. Bootstrap
-  contact: 
+  contact:
+    quote: "Ask for a quote now"
     left: "Mopis is based in Manacor, Mallorca. <br> But internet doesn't have geographic limits..."
         
