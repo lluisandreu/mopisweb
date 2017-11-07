@@ -7,6 +7,7 @@
         <meta name="description" content="<?php print $trans['meta']['description']; ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="LV2NcOCZMAPFOVO0bCC2sS_jc8wH8yR3CeUffD2FLeI" />
+        <link rel="canonical" href="https://www.mopisweb.com/" />
 
         <link rel="icon" href="dist/logos/favicon.ico">
         <!-- non-retina iPhone pre iOS 7 -->
@@ -37,7 +38,7 @@
                             <div class="header-left">
                                 <div class="logo">
                                     <a href="http://www.mopisweb.com/">
-                                        <img src="dist/logos/logo.svg" align="Mopis logo">
+                                        <img src="dist/logos/logo.svg" alt="Mopis Web Logo" align="Mopis logo">
                                     </a>
                                 </div>
                                 <nav class="main-nav main-nav-block" role="navigation">
@@ -201,7 +202,7 @@
                         <div class="cell medium-8">
                             <div class="grid-x grid-padding-x align-center-middle row-padding">
                                 <div class="cell small-6 medium-4 text-center">
-                                    <img src="dist/logos/logo-v3.svg" alt="Mopis logo" style="max-width: 200px;">
+                                    <img src="dist/logos/logo-v3.svg" alt="Mopis logo">
                                     <br>
                                 </div>
                             </div>
@@ -212,7 +213,7 @@
                                 <div class="cell medium-4 text-center">
                                     <ul class="menu vertical">
                                         <li><a href="tel:650514579" class="tel">650 514 579</a></li>
-                                        <li><a href="mailto:info@mopisweb.com" target="_blank">info@mopisweb.com</a></li>
+                                        <li><a href="mailto:info@mopisweb.com" target="_blank">Email</a></li>
                                     </ul>
                                 </div>
                                 <div class="cell medium-4 text-center medium-text-right">
