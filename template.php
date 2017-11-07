@@ -25,9 +25,8 @@
         <link rel="apple-touch-icon" href="apple-touch-icon-152x152.png" sizes="152x152">
         <!-- Win8 tile -->
 
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i" rel="stylesheet">
         <link rel="stylesheet" href="dist/css/app.css">
-        <script src="bower_components/modernizr/modernizr.js"></script>
     </head>
     <body>
         <div id="page" class="page-front">
@@ -201,14 +200,14 @@
                     <div class="grid-x grid-padding-x align-center-middle">
                         <div class="cell medium-8">
                             <div class="grid-x grid-padding-x align-center-middle row-padding">
-                                <div class="cell small-6 medium-3 text-center">
-                                    <img src="dist/logos/logo-v3.svg" alt="Mopis logo">
+                                <div class="cell small-6 medium-4 text-center">
+                                    <img src="dist/logos/logo-v3.svg" alt="Mopis logo" style="max-width: 200px;">
+                                    <br>
                                 </div>
                             </div>
                             <div class="grid-x grid-padding-x row-padding">
                                 <div class="cell medium-4 text-center medium-text-left">
-                                    <p><?php print $trans['contact']['left']; ?>
-                                    </p>
+                                    <p><?php print $trans['contact']['left']; ?></p>
                                 </div>
                                 <div class="cell medium-4 text-center">
                                     <ul class="menu vertical">
@@ -229,11 +228,8 @@
                 </footer>
             </main>
         </div>
-        
+        <script src="bower_components/modernizr/modernizr.js"></script>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <!-- <script id="__bs_script__">
-		    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
-		</script> -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44802229-19"></script>
         <script>
@@ -252,7 +248,8 @@
                     "openingHours":["Mo-Fri 9:00-17:00"],
                     "url":"http://www.mopisweb.com/",
                     "logo":"dist/logos/logo.svg",
-                    "telephone":"0034650514579"
+                    "telephone":"0034650514579", 
+                    "address": "Avinguda des Tren, Manacor. 07500. Illes Balears, Spain."
             }
         </script>
         <script type="text/javascript" src="dist/js/app.js"></script>
